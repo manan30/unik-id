@@ -1,6 +1,6 @@
 {
 	"name": "unik-id",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "A very tiny unique id generator",
 	"keywords": [
 		"typescript",
@@ -30,7 +30,9 @@
 		"url": "https://github.com/manan30/unik-id.git",
 		"type": "git"
 	},
-  "files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"build": "tsup",
 		"prepare": "husky install"
