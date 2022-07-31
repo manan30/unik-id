@@ -30,6 +30,7 @@
 		"url": "https://github.com/manan30/unik-id.git",
 		"type": "git"
 	},
+  "files": ["dist"],
 	"scripts": {
 		"build": "tsup",
 		"prepare": "husky install"
