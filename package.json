@@ -31,7 +31,7 @@
 		"type": "git"
 	},
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsup",
 		"prepare": "husky install"
 	},
 	"devDependencies": {
@@ -40,8 +40,9 @@
 		"eslint": "^8.20.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-prettier": "^4.2.1",
+		"husky": "^8.0.0",
 		"prettier": "^2.7.1",
-		"typescript": "^4.7.4",
-		"husky": "^8.0.0"
+		"tsup": "^6.2.1",
+		"typescript": "^4.7.4"
 	}
 }
