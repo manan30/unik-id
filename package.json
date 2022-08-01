@@ -1,55 +1,55 @@
 {
-	"name": "unik-id",
-	"version": "0.0.2",
-	"description": "A very tiny unique id generator",
-	"keywords": [
-		"typescript",
-		"javascript",
-		"utility",
-		"unique-id",
-		"generator"
-	],
-	"homepage": "https://github.com/manan30/unik-id",
-	"bugs": {
-		"url": "https://github.com/manan30/unik-id/issues",
-		"email": "mananjoshi1995@gmail.com"
-	},
-	"license": "MIT",
-	"author": "Manan Joshi <mananjoshi1995@gmail.com> (https://mananjoshi.me)",
-	"main": "./dist/index.js",
-	"module": "./dist/esm/index.js",
-	"types": "./dist/index.d.ts",
-	"exports": {
-		".": {
-			"require": "./dist/index.js",
-			"import": "./dist/esm/index.js",
-			"types": "./dist/index.d.ts"
-		}
-	},
-	"repository": {
-		"url": "https://github.com/manan30/unik-id.git",
-		"type": "git"
-	},
-	"files": [
-		"dist"
-	],
-	"scripts": {
-		"build": "tsup",
-		"prepare": "husky install",
-		"change": "beachball change",
-		"check": "beachball check",
-		"beachball:publish": "beachball publish"
-	},
-	"devDependencies": {
-		"@typescript-eslint/eslint-plugin": "^5.31.0",
-		"@typescript-eslint/parser": "^5.31.0",
-		"beachball": "^2.26.0",
-		"eslint": "^8.20.0",
-		"eslint-config-prettier": "^8.5.0",
-		"eslint-plugin-prettier": "^4.2.1",
-		"husky": "^8.0.0",
-		"prettier": "^2.7.1",
-		"tsup": "^6.2.1",
-		"typescript": "^4.7.4"
-	}
+  "name": "unik-id",
+  "version": "0.0.3",
+  "description": "A very tiny unique id generator",
+  "keywords": [
+    "typescript",
+    "javascript",
+    "utility",
+    "unique-id",
+    "generator"
+  ],
+  "homepage": "https://github.com/manan30/unik-id",
+  "bugs": {
+    "url": "https://github.com/manan30/unik-id/issues",
+    "email": "mananjoshi1995@gmail.com"
+  },
+  "license": "MIT",
+  "author": "Manan Joshi <mananjoshi1995@gmail.com> (https://mananjoshi.me)",
+  "main": "./dist/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/esm/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "repository": {
+    "url": "https://github.com/manan30/unik-id.git",
+    "type": "git"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "prepare": "husky install",
+    "change": "beachball change",
+    "check": "beachball check",
+    "beachball:publish": "beachball publish"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "beachball": "^2.26.0",
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.0",
+    "prettier": "^2.7.1",
+    "tsup": "^6.2.1",
+    "typescript": "^4.7.4"
+  }
 }

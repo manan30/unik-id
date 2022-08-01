@@ -1,0 +1,20 @@
+{
+  "name": "unik-id",
+  "entries": [
+    {
+      "date": "Mon, 01 Aug 2022 04:45:58 GMT",
+      "tag": "unik-id_v0.0.3",
+      "version": "0.0.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "mananjoshi1995@gmail.com",
+            "package": "unik-id",
+            "commit": "9b758baaedeab7860b8964a8169aa6073717df24",
+            "comment": "Setting up beachball"
+          }
+        ]
+      }
+    }
+  ]
+}
